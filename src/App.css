@@ -1,15 +1,16 @@
 body {
   text-align: center;
+  background-color: #414452;
 }
 
 textarea {
+  color:white;
   width: 32%;
   float: top;
   min-height: 250px;
   overflow: scroll;
   margin: auto;
   display: inline-block;
-  background: #f4f4f9;
   outline: none;
   font-family: monospace, Courier, sans-serif;
   font-size: 14px;
