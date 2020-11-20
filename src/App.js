@@ -8,13 +8,13 @@ const ToggleDarkModeButton = styled.button`
   display: flex;
   margin: 10px;
 `;
-const html = document.getElementById("HTML");
-const css = document.getElementById("CSS");
-const js = document.getElementById("JS");
-const code = document.getElementById("code-preview").contentWindow.document;
 
 function App() {
   function compile() {
+    const html = document.getElementById("HTML");
+    const css = document.getElementById("CSS");
+    const js = document.getElementById("JS");
+    const code = document.getElementById("code-preview").contentWindow.document;
     document.body.onkeyup = function () {
       code.open();
       code.writeln(
@@ -31,7 +31,7 @@ function App() {
   }
   useEffect(() => {
     compile();
-  }, [html.value, css.value, js.value]);
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
