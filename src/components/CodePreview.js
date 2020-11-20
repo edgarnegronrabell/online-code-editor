@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 const PreviewBox = styled.iframe`
   width:100%;
@@ -8,8 +8,7 @@ const PreviewBox = styled.iframe`
 `
 
 const CodePreview = () => {
-  const something = 1;
-  return <PreviewBox id="code-preview"></PreviewBox>;
+  return <PreviewBox id="code-preview" ></PreviewBox>;
 };
 
 export default CodePreview;

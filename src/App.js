@@ -40,9 +40,9 @@ function App() {
         <h1>Leira's Code Editor</h1>
       </header>
       <ToggleDarkModeButton>Toggle Dark Mode</ToggleDarkModeButton>
-        <CodeArea placeholder="HTML" />
-        <CodeArea placeholder="CSS" />
-        <CodeArea placeholder="JS" />
+      <CodeArea placeholder="HTML" />
+      <CodeArea placeholder="CSS" />
+      <CodeArea placeholder="JS" />
       <CodePreview />
     </div>
   );
